@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'cursive', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:black;
+    color:rgb(53, 35, 119);
+}
+
+header div ul li {
+    display: flex;
+    list-style-type: right;
+    margin-right: 25px;
+}
+
+
+main {
+    background-color: black;
+    color:rgb(53, 35, 119) ;
+    
+}
+
+.michael {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.live-site {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+#about-me {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: rgb(53, 35,119);
+}
+
+#background {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: rgb(53, 35,119);
+}
+
+#contact-me {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: rgb(53, 35,119);
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
