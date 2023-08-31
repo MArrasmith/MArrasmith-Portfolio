@@ -41,7 +41,10 @@ main {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+    padding-bottom: 50px;
 }
+
+
 #about-me {
     margin-left: 20px;
     padding: 20px;
@@ -77,6 +80,7 @@ main {
     background-color: black;
     color: rgb(53, 35,119);
 }
+
 
 @media screen and (max-width: 768px) {
     header {
